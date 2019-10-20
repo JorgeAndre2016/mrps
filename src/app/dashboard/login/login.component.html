@@ -1,0 +1,18 @@
+<div class="login">
+  <div class="form-signin" [@row]="rowState" [formGroup]="loginForm"
+  novalidate>
+    <!-- <fmt-notification></fmt-notification> -->
+    <h2 class="title_bottom">Login</h2>
+    <div class="mg-top">
+      <!-- <spaui-input type="text" formControlName="user" [(ngModel)]="user" placeholder="Matrícula" animation="[fade]"></spaui-input> -->
+    </div>
+    <div class="mg-bottom">
+      <!-- <spaui-input id="pwd" type="password" (keyup)="send($event);" formControlName="pwd" [(ngModel)]="pwd" placeholder="Senha" animation="[fade]"></spaui-input> -->
+    </div>
+    <div class="btn-login">
+      <button [disabled]="!loginForm.valid" spaui-button-custom class="medium col-xs-6" (click)="login();" buttonType="primary">Entrar</button>
+    </div>
+    <div class="row text-center">
+    </div>
+  </div>
+</div>

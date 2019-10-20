@@ -1,0 +1,26 @@
+.form-signin {
+  max-width: 288px;
+  padding: 15px 35px 30px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 12px;
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 12px;
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 12px;
+}
+
+// /deep/ .btn-login button {
+//   margin-top: -0px !important;
+//   margin-bottom: 10px !important;
+//   margin-left: 27px !important;
+// }
+
+// /deep/ .mg-bottom spaui-input div {
+//   margin-bottom: 25px !important;
+// }
+
+// /deep/ .mg-top spaui-input div {
+//   margin-top: 40px !important;
+// }

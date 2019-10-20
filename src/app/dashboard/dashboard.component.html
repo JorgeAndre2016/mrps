@@ -1,0 +1,24 @@
+<div *ngIf="isAllow" class="login">
+    <router-outlet></router-outlet>
+</div>
+<div *ngIf="!isAllow" class="wrapper">
+
+  <!-- Header -->
+  <mrps-header></mrps-header>
+
+  <!-- Sidebar -->
+  <mrps-sidebar ></mrps-sidebar>
+
+  <!-- Sidebar -->
+  <mrps-sidebar ></mrps-sidebar>
+
+  <div class="content-wrapper">
+    <router-outlet></router-outlet>
+  </div>
+
+  <!-- Footer -->
+  <mrps-footer></mrps-footer>
+
+  <div class="control-sidebar-bg"></div>
+
+</div>
